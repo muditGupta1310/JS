@@ -41,7 +41,7 @@ console.log(myArr2)
 
 const myn1 = myArr2.slice(1, 3)
 
-// console.log(myn1)
+console.log(myn1)
 
 
 // console.log("B ",myArr2)
