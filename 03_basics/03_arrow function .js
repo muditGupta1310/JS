@@ -16,4 +16,30 @@ const user ={
 // console.log(this)
 
 
+// function chai(){
+//     let username = "mudit"
+//     console.log(this.username)
+// }
 
+// chai()
+
+
+const chai = () => {
+    let username = "mudit"
+    console.log(this)
+}
+// chai()
+
+// const addTwo = (num1,num2) => {
+//     return num1 + num2
+// }
+
+
+// const addTwo = (num1,num2) =>  num1 + num2
+
+// const addTwo = (num1,num2) =>  (num1 + num2)
+
+const addTwo = (num1,num2) =>  {return {username: "mudit"}}
+
+
+console.log(addTwo(3,4))
