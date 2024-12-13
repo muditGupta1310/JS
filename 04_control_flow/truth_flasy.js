@@ -1,10 +1,10 @@
-const userEmail = "mudit@ai"
-if(userEmail){
-    console.log("Got user email")
-}
-else{
-    console.log("Don't have user email")
-}
+const userEmail = {}
+// if(userEmail){
+//     console.log("Got user email")
+// }
+// else{
+//     console.log("Don't have user email")
+// }
 
 // falsy values
 
@@ -14,3 +14,30 @@ else{
 // truthy values 
 
 // "0", 'false', " ", [], {}, function(){}
+
+
+// if (userEmail.length === 0){
+//     console.log("Array is Empty");   
+// }
+
+// console.log(userEmail.length)
+
+
+const emptyObj = {}
+
+// if (Object.keys(emptyObj).length === 0){
+//     console.log("Object is Empty")
+// }
+
+
+// console.log(Object.keys(emptyObj).length);
+
+
+// Nullish Coalescing Operator (??): null undefined
+
+let val1; 
+
+val1 = null ?? 10
+
+
+console.log(val1);
