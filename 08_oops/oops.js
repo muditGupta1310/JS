@@ -30,9 +30,14 @@ const user2 = {
 function User(username, loginCount, isLoggedIn){
     this.username = username;
     this.loginCount = loginCount;
-    this . isLoggedIn = isLoggedIn
+    this . isLoggedIn = isLoggedIn,
 
-    // return this
+    this.greeting = function(){
+        console.log(`Welcome ${this.username}`);
+        
+    }
+
+    return this
 }
 
 
@@ -40,9 +45,7 @@ const userOne = new User("mudit", 4, true)
 
 const UserTwo =  new User("MuditGupta", 5, false)
 
-console.log(userOne);
-
-console.log(UserTwo);
+console.log(userOne.constructor);
 
 
 // new creates an empty object
