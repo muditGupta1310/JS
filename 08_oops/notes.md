@@ -10,7 +10,7 @@
 ## parts of OOP
 Object Literals
 
-- Constructor Function
+- Constructor Function  -- always provide new instance
 - Prototypes
 - Classes
 - Instances (new, this)
